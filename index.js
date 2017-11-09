@@ -45,6 +45,9 @@ const options = {
                 production: false
             }
         ]
+    },
+    oauth: {
+        google: {}
     }
 }
 const api = new ParseServer(options);
